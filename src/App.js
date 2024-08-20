@@ -18,7 +18,7 @@
 // import SaveLoadData from "./components/14LocalSessionStorage/SaveLoadData";
 import Questao01A from "./components/00Prova1/Questão01/Questao01A";
 import Questao02 from "./components/00Prova1/Questao02/Questao02";
-// import Questao03 from "./components/00Prova1/Questao03/Questao03";
+import Questao03 from "./components/00Prova1/Questao03/Questao03";
 import Questao04 from "./components/00Prova1/Questao04/Questao04";
 function App() {
   return (
@@ -48,7 +48,7 @@ function App() {
      {/* <SaveLoadData /> */}
      <Questao01A />
      <Questao02 />
-     {/* <Questao03 /> */}
+     <Questao03 />
      <Questao04 />
 
 
