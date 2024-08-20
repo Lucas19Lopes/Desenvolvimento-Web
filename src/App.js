@@ -12,6 +12,10 @@
 // import AcessarCVD19 from "./components/13Axios/AcessCVD19";
 // import PrincipalRedux from "./components/13Redux/PrincipalRedux";
 // import SaveLoadData from "./components/14LocalSessionStorage/SaveLoadData";
+// import { Arena, World, Hero, Enemy } from "./components/00Atividade/atividade01/Questao03/Batalha";
+// import  FunctionContextA  from  "./components/00Atividade/atividade02/Questao01/FunctionContextA";
+// import Avo from "./components/00Atividade/atividade02/Questao02/Avo";
+// import SaveLoadData from "./components/14LocalSessionStorage/SaveLoadData";
 
 function App() {
   return (
@@ -27,8 +31,21 @@ function App() {
      {/* <ComponentesPromessa /> */}
      {/* <AcessarCVD19 /> */}
      {/* <PrincipalRedux />; */}
+     {/* <World>
+        <Arena arena="Wano">
+          <Hero name="Luffy"/>
+          <Enemy name="Kaido"/>
+
+        </Arena>
+
+      </World>
+     */}
+     {/* <FunctionContextA /> */}
+     {/* <Avo /> */}
      {/* <SaveLoadData /> */}
-     
+
+
+    
     </div>
   );
 }

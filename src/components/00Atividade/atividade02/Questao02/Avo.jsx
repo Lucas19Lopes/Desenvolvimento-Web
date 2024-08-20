@@ -2,7 +2,7 @@ import MyNumber from "./MeuContexto"
 import Filho from "./Filho"
 
 const Avo = () => {
-    const numero = 10
+    const numero = 3
     return (
         <>
         <h3>Avô: {numero}</h3>

@@ -3,7 +3,7 @@ import { Children, cloneElement } from "react"
 const Hero = ({name, arena}) => {
     return (
         <>
-            <h4>Hero: {name}, lutando no {arena}</h4>
+            <h4>Hero: {name}, lutando em {arena}</h4>
         </>
     )
 }
@@ -11,7 +11,7 @@ const Hero = ({name, arena}) => {
 const Enemy = ({name, arena}) => {
     return (
         <>
-            <h4>Enemy: {name}, lutando no {arena}</h4>
+            <h4>Enemy: {name}, lutando em {arena}</h4>
         </>
     )
 }
