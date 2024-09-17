@@ -1,0 +1,21 @@
+{
+    "professores": [
+      {
+        "nome": "Teste",
+        "curso": "Teste",
+        "titulacao": "GRAD",
+        "ai": {
+          "es": true,
+          "lc": false,
+          "mc": false,
+          "al": false
+        },
+        "universidade": {
+          "ifce": false,
+          "ufc": true
+        },
+        "id": 2
+      }
+    ],
+    "alunos": []
+  }
