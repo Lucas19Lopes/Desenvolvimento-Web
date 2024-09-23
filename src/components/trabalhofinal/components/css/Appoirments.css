@@ -1,0 +1,46 @@
+/* Appointments.css */
+
+.container {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(255, 223, 0, 0.5);
+  }
+  
+  .container h2 {
+    color: #ffd700;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #444;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff1c1c;
+  }
+  

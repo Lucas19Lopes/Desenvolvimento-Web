@@ -1,0 +1,15 @@
+Intuito do Trabalho
+O objetivo deste projeto é desenvolver um sistema de agendamento de horários para uma barbearia. O usuário pode selecionar o horário, dia e mês desejados para o atendimento. Caso o barbeiro escolhido já esteja com o horário ocupado, o usuário precisará selecionar outro horário disponível. O sistema oferece a opção de escolher entre quatro barbeiros.
+
+Funcionalidades
+Agendamentos: Permite que os usuários agendem horários com os barbeiros disponíveis.
+Edição de Agendamentos: Os usuários podem editar seus próprios agendamentos.
+Exclusão de Agendamentos: Os usuários podem excluir seus próprios agendamentos.
+Visualização de Agendamentos: Todos os usuários podem visualizar os horários agendados, mas apenas os usuários que fizeram o agendamento podem editá-los ou excluí-los.
+Autenticação: É necessário fazer login para acessar a página de agendamento e visualizar os horários agendados.
+
+Dificuldades no desenvolvimento
+Foi fazer a parte de rotas, as vezes tentativas o botão não redirecionava, também errei alguma vezes na parte de aponta para o arquivo correto e fica procurando o erro.
+
+Conclusão
+O Trabalho é simples mas antende  a sua principal Funcionalida, que é o agendamento na barbearia.

@@ -1,0 +1,58 @@
+/* Schedule.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.schedule-box {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 223, 0, 0.5);
+  text-align: center;
+  width: 300px;
+}
+
+.schedule-box h2 {
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.schedule-box label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.schedule-box input, .schedule-box select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.schedule-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.schedule-box button:hover {
+  background-color: #e6b800;
+}

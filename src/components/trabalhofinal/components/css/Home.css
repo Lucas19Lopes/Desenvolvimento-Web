@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root {
+    --cor-primaria:#000000;
+    --cor-secundaria: #ffffff;
+    --cor-tercearia: #ffd700;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.titulo-destaque{
+    color: var(--cor-tercearia);
+}
+.titulo-destaque2{
+    color: var(--cor-tercearia);
+    height: auto;
+}
+.titulo-destaque3{
+    font-size: 2.25rem;
+    color: var(--cor-tercearia);
+    height: auto;
+
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-tercearia);
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    padding: 20px;
+
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex: 1;
+    max-width: 60%;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    line-height: 1.5;
+}
+.apresentacao__conteudo__paragrafo__strong {
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+
+}
+
+.apresentacao__conteudo__paragrafo__li {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+
+
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__links__navegacao {
+    /* background-color: #22adfd; */
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    border: 2px solid var(--cor-tercearia);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links__navegacao:hover {
+    background-color: var(--cor-hover);
+}
+
+.apresentacao.imagem {
+    width: 30%;
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-tercearia);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo {
+        width:auto;
+    }
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column; /* Alinha as fotos verticalmente */
+    justify-content: center; /* Centraliza verticalmente se necessário */
+    align-items: center; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Espaçamento do topo (ajuste conforme necessário) */
+}
+
+/* Estilos para cada foto */
+.fotos__cortes {
+    width: 460px; /* Largura da foto (ajuste conforme necessário) */
+    height: auto; /* Altura automática para manter a proporção */
+    margin: 20px auto; /* Espaçamento entre as fotos e centralização horizontal */
+}
+
+table {
+    border-collapse: collapse;
+    width: 460px;
+    height: 100px;
+   
+}
+
+.table {
+    margin-top: 20px;
+    margin-bottom: 30px; /* Adds space between tables */
+    width: 100%;
+
+}

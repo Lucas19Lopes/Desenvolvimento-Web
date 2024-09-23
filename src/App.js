@@ -21,7 +21,8 @@
 // import Questao03 from "./components/00Prova1/Questao03/Questao03";
 // import Questao04 from "./components/00Prova1/Questao04/Questao04";
 // import MyNavbar from "./components/16Bootstrap/MyNavbar";
-import Main from "./components/17CRUD/Main";
+// import Main from "./components/17CRUD/Main";
+import Main from "./components/trabalhofinal/Main";
 function App() {
   return (
     <div className="App">
